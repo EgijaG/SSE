@@ -15,18 +15,6 @@
      animation-iteration-count: infinite;
  }
  
- @keyframes slidein {
-     0% {
-         margin-left: 0%;
-     }
-     50% {
-         margin-left: 300px;
-     }
-     100% {
-         margin-left: 0%;
-     }
- }
- 
  img.navbar-brand {
      height: 80px;
  }
@@ -132,6 +120,10 @@
      position: absolute;
      vertical-align: middle;
      text-align: center;
+ }
+ 
+ .card-group {
+     margin-bottom: 100px;
  }
  /* navigation blocks */
  
@@ -243,4 +235,16 @@
      height: 50px;
      width: 100%;
      text-align: center;
+ }
+ 
+ @keyframes slidein {
+     0% {
+         margin-left: 0%;
+     }
+     50% {
+         margin-left: 300px;
+     }
+     100% {
+         margin-left: 0%;
+     }
  }
