@@ -123,9 +123,9 @@
                 </div>
             </a>
         </div>
-        <section>
+        <!-- <section>
             <h2 class="headings">Reviews</h2>
-        </section>
+        </section> -->
     </div>
 
 </div>
