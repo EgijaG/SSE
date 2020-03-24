@@ -1,0 +1,246 @@
+ * {
+     font-family: 'Raleway', sans-serif;
+     font-weight: 400;
+ }
+ 
+ header {
+     background: #591e77;
+ }
+ 
+ h2 {
+     text-align: center;
+     font-family: 'Libre Baskerville';
+     animation-duration: 8s;
+     animation-name: slidein;
+     animation-iteration-count: infinite;
+ }
+ 
+ @keyframes slidein {
+     0% {
+         margin-left: 0%;
+     }
+     50% {
+         margin-left: 300px;
+     }
+     100% {
+         margin-left: 0%;
+     }
+ }
+ 
+ img.navbar-brand {
+     height: 80px;
+ }
+ /* icons */
+ 
+ .fa {
+     padding: 20px;
+     font-size: 25px;
+     width: 20px;
+     text-align: center;
+     text-decoration: none;
+     margin: 10px 5px;
+     border-radius: 50%;
+     color: #f4bc00;
+ }
+ 
+ .social-media {
+     align-items: flex-end;
+ }
+ 
+ a.fa {
+     color: #cc7000;
+     align-items: flex-end;
+ }
+ 
+ .fa:hover {
+     opacity: 0.5;
+     color: antiquewhite;
+ }
+ /* Dropdown */
+ 
+ .p-4 {
+     background: #591e77;
+     align-content: center;
+ }
+ 
+ .navbar-custom,
+ .bg-custom {
+     background-color: #A08F59;
+     height: auto;
+ }
+ 
+ .btn-group {
+     border-radius: 5px;
+     background: transparent;
+     border-style: solid;
+     border-color: #A08F59;
+ }
+ 
+ .btn-group>a {
+     color: white;
+ }
+ 
+ .btn-group>a:hover {
+     color: #591e77;
+ }
+ 
+ #btn-register {
+     float: right;
+     border-color: #A08F59;
+     border-radius: 5px;
+ }
+ 
+ #btn-register>a {
+     color: white;
+ }
+ /* Carousel */
+ 
+ .slider {
+     margin: 50px;
+ }
+ /* Navigation blocks */
+ 
+ .main-content-width {
+     width: 960px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ 
+ .centered {
+     margin-left: auto;
+     margin-right: auto;
+ }
+ 
+ .quicklink-blocks-item {
+     width: 50%;
+     height: 100px;
+     float: left;
+     position: relative;
+     transition: all 0.2s;
+     -webkit-transition: all 0.2s;
+     border-radius: 3px;
+     vertical-align: middle;
+ }
+ 
+ a.quicklink-blocks-item:hover {
+     /* opacity: 0.5; */
+     color: crimson;
+ }
+ 
+ .quicklink-blocks-item.custom-table {
+     display: table-cell;
+     position: absolute;
+     vertical-align: middle;
+     text-align: center;
+ }
+ /* navigation blocks */
+ 
+ #about-block {
+     background: #b5c1d1;
+     vertical-align: middle;
+ }
+ 
+ #calendar-block {
+     background: #f6c933;
+ }
+ 
+ #courses-block {
+     background: #8497b3;
+ }
+ 
+ #guides-block {
+     background: #f4bc00;
+ }
+ 
+ #investigative-training-block {
+     background: #0c498b;
+ }
+ 
+ #mini-mba-block {
+     background: #e09c00;
+ }
+ 
+ #podcast-block {
+     background: #0a4285;
+ }
+ 
+ #reinventing-media-block {
+     background: #cc7c01;
+ }
+ 
+ #summer-school-block {
+     background: #073068;
+ }
+ 
+ #team-block {
+     background: #581f76;
+ }
+ 
+ a.quicklink-blocks-item {
+     color: white;
+     text-decoration-color: thistle;
+ }
+ 
+ td {
+     color: white;
+     text-align: center;
+ }
+ /* Events  */
+ 
+ .event-list {
+     color: black;
+ }
+ 
+ li>a:hover {
+     color: blueviolet;
+ }
+ /* Footer */
+ 
+ .footer-text {
+     text-align: center;
+     color: white;
+     margin-top: 15px;
+ }
+ /* maps */
+ 
+ .mapouter {
+     position: relative;
+     text-align: right;
+     height: 500px;
+     width: 600px;
+ }
+ 
+ .maps {
+     margin: 15px;
+     align-items: center;
+ }
+ 
+ #gmap_canvas {
+     border: groove;
+     border-radius: 5px;
+     border-color: #591e77;
+     align-content: center;
+ }
+ 
+ .gmap_canvas {
+     overflow: hidden;
+     background: none !important;
+     height: 500px;
+     width: 600px;
+ }
+ /* tabs */
+ 
+ .tabs {
+     margin: 20px;
+ }
+ /* Footer */
+ 
+ footer {
+     background-color: #A08F59;
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     height: 50px;
+     width: 100%;
+     text-align: center;
+ }
