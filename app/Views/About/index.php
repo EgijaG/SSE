@@ -123,9 +123,10 @@
                 </div>
             </a>
         </div>
-        <!-- <section>
-            <h2 class="headings">Reviews</h2>
-        </section> -->
+        <div>
+            <h2>Lorem ipsum</h2>
+            <p> dolor sit, amet consectetur adipisicing elit. Libero hic reiciendis rem voluptatibus nesciunt atque commodi ipsa, molestiae, saepe perferendis itaque sit eum provident eligendi obcaecati laudantium architecto quibusdam blanditiis.</p>
+        </div>
     </div>
 
 </div>
