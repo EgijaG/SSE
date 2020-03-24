@@ -57,11 +57,11 @@
                     </div>
                 </div>
             </a>
-            <a href="?page=guides-and-publications" class="quicklink-blocks-item" id="guides-block">
+            <a href="?page=chat" class="quicklink-blocks-item" id="guides-block">
                 <div class="custom-table">
                     <div class="tr">
                         <div class="td">
-                            <h2>Guides & Publications</h2>
+                            <h2>Chat</h2>
                         </div>
                     </div>
                 </div>
