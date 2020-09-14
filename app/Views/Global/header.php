@@ -53,12 +53,16 @@
     </header>
     <div class="pos-f-t">
         <div class="collapse" id="navbarToggleExternalContent">
+            
+        </div>
+        <nav class="navbar-custom navbar-dark">
+            <button class="navbar-toggler bg-custom" id="dropdown-btn" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
             <div class="p-4">
                 <button class="btn-group"><a href="?">About</a></button>
                 <button class="btn-group"><a href="?page=calendar">Calendar</a></button>
                 <button class="btn-group"><a href="?page=contacts">Contacts</a></button>
-                <button class="btn-group"><a href="?page=events">Events</a></button>
-                <button class="btn-group"><a href="?page=chat">Chat</a></button>
                 <button class="btn-group"><a href="?page=investigative-training">Investigative Training</a></button>
                 <button class="btn-group"><a href="?page=mini-mba">Mini MBA</a></button>
                 <button class="btn-group"><a href="?page=podcast">Podcast</a></button>
@@ -67,12 +71,5 @@
                 <button class="btn-group"><a href="?page=team">Team</a></button>
 
             </div>
-        </div>
-        <nav class="navbar-custom navbar-dark">
-            <button class="navbar-toggler bg-custom" id="dropdown-btn" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <button class="bg-custom" id="btn-register"><a href="?page=registration">Register</a></button>
-
         </nav>
     </div>
